@@ -1,0 +1,14 @@
+// Import of générality style
+@import "base/reset";
+
+// Import of différents components
+@import "components/button";
+@import "components/feature-element";
+@import "components/footer";
+@import "components/frame-element";
+@import "components/header";
+
+
+// Import of pages
+@import "pages/index";
+@import "pages/restaurant";
