@@ -12,3 +12,8 @@ a{
      color: $text-color;
      text-decoration: none;
 }
+
+.element{
+     opacity: 0;
+     transition: opacity 0.5s ease-in-out;
+}

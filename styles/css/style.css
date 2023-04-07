@@ -57,6 +57,11 @@ a {
   text-decoration: none;
 }
 
+.element {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
 .main-button {
   padding: 1em 2em;
   font-size: 18px;
@@ -307,8 +312,6 @@ a {
   border-radius: 15px;
   background-color: #FFF;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
 }
 .restaurant__frame-element-title {
   font-size: 20px;
