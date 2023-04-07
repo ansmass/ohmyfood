@@ -46,6 +46,22 @@
      }
 
      .restaurant{
-          
+          > &__frame{
+               height: auto !important;
+
+               > &-elements{
+                    width: 100%;
+                    height: auto;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+               }
+
+               > &-element{
+                    width: 30% !important;
+                    height: 15vh !important;
+               }
+          }
      }
 }

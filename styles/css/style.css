@@ -41,6 +41,20 @@ img {
   .container__restaurant-card {
     margin-right: 2em;
   }
+  .restaurant__frame {
+    height: auto !important;
+  }
+  .restaurant__frame-elements {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .restaurant__frame-element {
+    width: 30% !important;
+    height: 15vh !important;
+  }
 }
 body {
   color: #000;
