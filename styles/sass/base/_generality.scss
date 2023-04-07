@@ -2,6 +2,8 @@ body{
      color: $text-color;
      background-color: $main-white;
      font-family: $main-font;
+
+     scroll-behavior: smooth;
 }
 
 i{

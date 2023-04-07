@@ -60,6 +60,7 @@ body {
   color: #000;
   background-color: #FFF;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 i {
