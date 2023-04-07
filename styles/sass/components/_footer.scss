@@ -27,3 +27,13 @@
           }
      }
 }
+
+@media only screen and (min-width: 1024px){
+     .footer{
+          height: 25vh;
+          > &__logo{
+               margin: 1em 0;
+               width: 10%;
+          }
+     }
+}

@@ -1,0 +1,47 @@
+@media only screen and (min-width: 1024px){
+     .container{
+          > &__feature{
+               > &-elements{
+                    width: 100%;
+                    
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+               }
+               > &-element{
+                    width: 20% !important;
+                    height: 30vh;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    position: relative;
+
+                    > .badge{
+                         width: 50px !important;
+                         height: 50px !important;
+                         
+                         position: absolute;
+                         top: -10px;
+                    }
+               }
+          }
+
+          > &__restaurant{
+               > &-cards{
+                    margin-bottom: 2em;
+                    width: 100% !important;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+               }
+
+               > &-card{
+                    margin-right: 2em;
+               }
+          }
+     }
+}
