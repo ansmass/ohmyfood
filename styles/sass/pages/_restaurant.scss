@@ -1,0 +1,88 @@
+.restaurant{
+     padding-left: 1.5em;
+     width: 100%;
+
+     display: flex;
+     flex-direction: column;
+
+     background-color: $secondary-white;
+
+     &__title{
+          margin-right: 1em;
+
+          font-size: 32px;
+          font-family: $secondary-font;
+     }
+
+     &__name{
+          width: 100%;
+          
+          display: flex;
+          align-items: center;
+
+          > i{
+               font-size: 1.5em;
+          }
+     }
+
+     &__frame {
+          
+          width: 100%;
+          height: 40vh;
+          
+          &-entitled{
+               margin: 1em 0;
+
+               text-transform: uppercase;
+               font-weight: 300;
+
+               &-underline{
+                    margin-top: 5px;
+
+                    width: 15%;
+                    height: 4px;
+
+                    background-color: $tertiary-color;
+               }
+          }
+
+          &-element{
+               margin-bottom: 1.5em;
+               padding-left: 1em;
+
+               width: 90%;
+               height: 8vh;
+
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+
+               border-radius: 15px;
+               background-color: $main-white;
+               box-shadow: $main-shadow;
+
+               &-title{
+                    font-size: 20px;
+                    font-weight: 400;
+               }
+
+               > &-inline{
+                    width: 90%;
+
+                    display: flex;
+                    justify-content: space-between;
+               }
+
+               > &-description{
+                    font-size: 18px;
+                    font-weight: 300;
+                    color: #656565;
+               }
+          }
+     }
+
+     > a{
+          margin: 2em 0;
+          align-self: center;
+     }
+}

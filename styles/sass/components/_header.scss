@@ -6,6 +6,13 @@
      align-items: center;
      justify-content: center;
 
+     position: relative;
+
+     > a{
+          position: absolute;
+          left: 2em;
+     }
+
      &__logo{
           width: 50%;
           height: 100%;
