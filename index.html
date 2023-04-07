@@ -28,7 +28,7 @@
 
           <section class="container__hero">
                <h1 class="container__title-main">Réservez le menu qui vous convient</h1>
-               <p class="container__description">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+               <p class="container__hero-description">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
                <a href="#restaurant-section">
                     <button class="main-button">Explorez nos restaurants</button>
                </a>
@@ -59,79 +59,83 @@
           <section class="container__restaurant" id="restaurant-section">
                <h2 class="container__title-second">Restaurants</h2>
 
-               <section class="container__restaurant-card">
-                    <a href="palette.html">
-                         <div class="container__restaurant-card-img">
-                              <img src="./media/img/palette.jpeg" alt="Plat servit au restaurant La palette du goût">
-                         </div>
-                         <article>
-                              <div class="content">
-                                   <h3 class="container__title-third">La palette du goût</h3>
-                                   <p class="container__description">Ménilmontant</p>
+               <div class="container__restaurant-cards">
+                    <section class="container__restaurant-card">
+                         <a href="palette.html">
+                              <div class="container__restaurant-card-img">
+                                   <img src="./media/img/palette.jpeg" alt="Plat servit au restaurant La palette du goût">
+                                   <span class="badge-new">Nouveau</span>
                               </div>
-                              <div class="like">
-                                   <i class="fa-light fa-heart"></i>
+                              <article class="container__restaurant-card-actions">
+                                   <div class="content">
+                                        <h3 class="container__title-third">La palette du goût</h3>
+                                        <p class="container__description">Ménilmontant</p>
+                                   </div>
+                                   <div class="like">
+                                        <i class="fa-regular fa-heart"></i>
+                                   </div>
+                              </article>
+                         </a>
+                    </section>
+     
+                    <section class="container__restaurant-card">
+                         <a href="#">
+                              <div class="container__restaurant-card-img">
+                                   <img src="./media/img/enchantee.jpeg" alt="Plat servit au restaurant La note enchantée">
+                                   <span class="badge-new">Nouveau</span>
                               </div>
-                         </article>
-                    </a>
-               </section>
-
-               <section class="container__restaurant-card">
-                    <a href="#">
-                         <div class="container__restaurant-card-img">
-                              <img src="./media/img/enchantee.jpeg" alt="Plat servit au restaurant La note enchantée">
-                         </div>
-                         <article>
-                              <div class="content">
-                                   <h3 class="container__title-third">La note enchantée</h3>
-                                   <p class="container__description">Charonne</p>
+                              <article class="container__restaurant-card-actions">
+                                   <div class="content">
+                                        <h3 class="container__title-third">La note enchantée</h3>
+                                        <p class="container__description">Charonne</p>
+                                   </div>
+                                   <div class="like">
+                                        <i class="fa-regular fa-heart"></i>
+                                   </div>
+                              </article>
+                         </a>
+                    </section>
+     
+                    <section class="container__restaurant-card">
+                         <a href="#">
+                              <div class="container__restaurant-card-img">
+                                   <img src="./media/img/francaise.jpeg" alt="Plat servit au restaurant À la française">
                               </div>
-                              <div class="like">
-                                   <i class="fa-light fa-heart"></i>
+                              <article class="container__restaurant-card-actions">
+                                   <div class="content">
+                                        <h3 class="container__title-third">À la française</h3>
+                                        <p class="container__description">Cité Rouge</p>
+                                   </div>
+                                   <div class="like">
+                                        <i class="fa-regular fa-heart"></i>
+                                   </div>
+                              </article>
+                         </a>
+                    </section>
+     
+                    <section class="container__restaurant-card">
+                         <a href="#">
+                              <div class="container__restaurant-card-img">
+                                   <img src="./media/img/delice.jpeg" alt="Plat servit au restaurant Le délice des sens">
                               </div>
-                         </article>
-                    </a>
-               </section>
-
-               <section class="container__restaurant-card">
-                    <a href="#">
-                         <div class="container__restaurant-card-img">
-                              <img src="./media/img/francaise.jpeg" alt="Plat servit au restaurant À la française">
-                         </div>
-                         <article>
-                              <div class="content">
-                                   <h3 class="container__title-third">À la française</h3>
-                                   <p class="container__description">Cité Rouge</p>
-                              </div>
-                              <div class="like">
-                                   <i class="fa-light fa-heart"></i>
-                              </div>
-                         </article>
-                    </a>
-               </section>
-
-               <section class="container__restaurant-card">
-                    <a href="#">
-                         <div class="container__restaurant-card-img">
-                              <img src="./media/img/delice.jpeg" alt="Plat servit au restaurant Le délice des sens">
-                         </div>
-                         <article>
-                              <div class="content">
-                                   <h3 class="container__title-third">Le déclice des sens</h3>
-                                   <p class="container__description">Folie-Méricourt</p>
-                              </div>
-                              <div class="like">
-                                   <i class="fa-light fa-heart"></i>
-                              </div>
-                         </article>
-                    </a>
-               </section>
+                              <article class="container__restaurant-card-actions">
+                                   <div class="content">
+                                        <h3 class="container__title-third">Le déclice des sens</h3>
+                                        <p class="container__description">Folie-Méricourt</p>
+                                   </div>
+                                   <div class="like">
+                                        <i class="fa-regular fa-heart"></i>
+                                   </div>
+                              </article>
+                         </a>
+                    </section>
+               </div>
           </section>
      </main>
 
      <footer class="footer">
-          <div class="header__logo">
-               <img src="./media/logo/ohmyfood.png" alt="Logo de l'entreprise Ohmyfood">
+          <div class="footer__logo">
+               <img src="./media/logo/ohmyfood.svg" alt="Logo de l'entreprise Ohmyfood">
           </div>
           <nav class="footer__navigation">
                <ul class="footer__navigation-menu">

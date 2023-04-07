@@ -1,0 +1,174 @@
+.container{
+     width: 100%;
+     height: auto;
+
+     &__location{
+          width: 100%;
+          height: 7vh;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          background-color: #EAEAEA;
+
+          &-city{
+               margin-left: 1em;
+               font-weight: 500;
+          }
+     }
+
+     &__title{
+          color: $text-color;
+
+          > &-main{
+               margin-bottom: 0.5em;
+               font-size: 2em;
+          }
+
+          > &-second{
+               margin: 1em 0;
+               font-size: 2em;
+          }
+     }
+
+     &__description{
+          font-size: 20px;
+          font-weight: 300;
+          color: #656565;
+     }
+
+     // hero container
+     &__hero{
+          padding: 2em;
+
+          width: 100%;
+          height: 35vh;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          background-color: $secondary-white;
+          text-align: center;
+
+          &-description{
+               margin-bottom: 2em;
+
+               font-size: 20px;
+               font-weight: 300;
+               color: #656565;
+          }
+     }
+
+     // feature container
+     &__feature{
+          padding-left: 1.5em;
+
+          width: 100%;
+          height: 40vh;
+
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+
+          &-element{
+
+               width: 90%;
+               height: 8vh;
+
+               display: flex;
+               align-items: center;
+
+               position: relative;
+               
+               background-color: $secondary-white;
+               border-radius: 15px;
+               box-shadow: $main-shadow;
+
+               .badge{
+                    width: 25px;
+                    height: 25px;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    position: absolute;
+                    left: -10px;
+
+                    border-radius: 100px;
+
+                    background-color: $primary-color;
+                    color: $main-white;
+               }
+
+               > i{
+                    font-size: 20px;
+                    margin: 0 1em 0 2em;
+               }
+
+               > p{
+                    font-size: 20px;
+                    font-weight: 400;
+               }
+          }
+     }
+
+     // restaurant container
+     &__restaurant{
+          padding-left: 1.5em;
+
+          width: 100%;
+          height: auto;
+
+          background-color: $secondary-white;
+
+          &-cards{
+               width: 90%;
+               height: auto;
+          }
+
+          &-card{
+               margin-bottom: 1em;
+               
+               width: 100%;
+
+               border-radius: 15px;
+
+               background-color: $main-white;
+               box-shadow: $main-shadow;
+
+               &-img{
+                    position: relative;
+                    
+                    > img{
+                         border-radius: 15px 15px 0 0;
+                    }
+
+                    > .badge-new{
+                         padding: 10px 20px;
+
+                         position: absolute;
+                         top: 15px;
+                         right: 20px;
+
+                         color: #139273;
+                         background-color: $tertiary-color;
+                         border-radius: 5px;
+                    }
+               }
+
+               > &-actions{
+                    padding: 0 1.5em;
+
+                    width: 100%;
+                    height: 10vh;
+
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+               }
+          }
+     }
+}

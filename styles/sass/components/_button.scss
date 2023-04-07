@@ -1,0 +1,11 @@
+.main-button{
+     padding: 1em 2em;
+
+     font-size: 18px;
+     color: $main-white;
+
+     border: none;
+     border-radius: 50px;
+     background-image: linear-gradient(to right bottom, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
+     box-shadow: $main-shadow;
+}
